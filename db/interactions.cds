@@ -31,6 +31,7 @@ context app.interactions {
     }
 }
 
+// This is a facade entity
 @cds.persistence.exists
 @cds.persistence.calcview
 entity V_INTERACTION {

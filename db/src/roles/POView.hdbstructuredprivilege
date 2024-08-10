@@ -1,0 +1,4 @@
+STRUCTURED PRIVILEGE "ZPOView" FOR
+SELECT
+ ON "POView"
+WHERE "CurrencyCode" = 'EUR'
